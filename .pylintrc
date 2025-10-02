@@ -1,0 +1,13 @@
+[MASTER]
+ignore=venv,.venv,env
+
+[MESSAGES CONTROL]
+# Не отключаею no-member глобально, чтобы не скрыть реальные ошибки.
+
+[TYPECHECK]
+# Сообщаем Pylint, что эти атрибуты генерируются Django динамически
+# и не должны вызывать E1101 (no-member).
+generated-members=
+    objects,
+    DoesNotExist,
+    MultipleObjectsReturned

@@ -1,0 +1,9 @@
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+psycopg2-binary==2.9.10
+celery==5.3.4
+redis==5.0.1
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+gunicorn==21.2.0
