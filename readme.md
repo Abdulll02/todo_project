@@ -19,8 +19,9 @@
 - Telegram Bot Token (от @BotFather)
 
 ### 1. Клонирование репозитория
+bash
+git clone <https://github.com/Abdulll02/todo_project.git>
 
-git clone <repository-url>
 cd todo_project
 
 ### 2. Настройка переменных окружения
@@ -28,18 +29,26 @@ cd todo_project
 
 # Django
 SECRET_KEY=your-django-secret-key
+
 DEBUG=True
+
 DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1,backend
 
 # Database
 POSTGRES_DB=todo_db
+
 POSTGRES_USER=todo_user
+
 POSTGRES_PASSWORD=todo_password
+
 DB_HOST=db
+
 DB_PORT=5432
 
 # Telegram Bot
+
 BOT_TOKEN=your-telegram-bot-token
+
 DJANGO_API_URL=http://backend:8000/api
 
 
