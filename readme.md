@@ -19,11 +19,11 @@
 - Telegram Bot Token (от @BotFather)
 
 ### 1. Клонирование репозитория
-
+```bash
 git clone <https://github.com/Abdulll02/todo_project.git>
 
 cd todo_project
-
+```
 ### 2. Настройка переменных окружения
 Создайте файл .env в корне проекта:
 
