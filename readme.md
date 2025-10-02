@@ -88,8 +88,11 @@ docker-compose exec backend python manage.py collectstatic --noinput
 2) API Endpoints:
 
 GET /api/tasks/ - список задач
+
 POST /api/tasks/ - создание задачи
+
 GET /api/categories/ - список категорий
+
 
 3) Telegram Bot:
 
